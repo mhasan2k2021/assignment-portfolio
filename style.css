@@ -230,3 +230,69 @@ nav h3 {
   font-size: 10px;
   color: rgb(95, 95, 95);
 }
+
+/* this is get in touch style */
+
+.touch_section_container {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 100px;
+}
+
+.touch_section {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.touch_section h3 {
+  font-size: 70px;
+  font-weight: 700;
+  width: 50%;
+}
+form {
+  background-color: aqua;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 25px;
+}
+form div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+form div label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+form div input {
+  width: 100%;
+  height: 35px;
+  border: none;
+  padding: 10px 4px;
+  outline: none;
+  font-size: 16px;
+  color: #5a5a5a;
+}
+form div textarea {
+  width: 100%;
+  height: 150px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  color: #5a5a5a;
+}
+
+form .btn {
+  align-items: center;
+}
