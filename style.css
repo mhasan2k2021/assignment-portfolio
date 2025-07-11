@@ -107,11 +107,12 @@ nav h3 {
 
 .productive_user {
   width: 100%;
-  height: 500px;
+  height: 350px;
   padding: 0 100px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .productive_user_container {
@@ -240,6 +241,8 @@ nav h3 {
   align-items: center;
   justify-content: center;
   padding: 50px 100px;
+  background-color: #4d47ff28;
+  margin-top: 50px;
 }
 
 .touch_section {
@@ -257,7 +260,6 @@ nav h3 {
   width: 50%;
 }
 form {
-  background-color: aqua;
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -279,10 +281,11 @@ form div input {
   width: 100%;
   height: 35px;
   border: none;
-  padding: 10px 4px;
+  padding: 4px 10px;
   outline: none;
   font-size: 16px;
   color: #5a5a5a;
+  background-color: #c7c6c6;
 }
 form div textarea {
   width: 100%;
@@ -291,6 +294,7 @@ form div textarea {
   outline: none;
   padding: 10px;
   color: #5a5a5a;
+  background-color: #c7c6c6;
 }
 
 form .btn {
